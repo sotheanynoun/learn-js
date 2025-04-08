@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>People entered:</h1>
+    <p id="welcome-el"></p>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="u=increment()">INCREMENT</button>
+    <!-- 2. Create a SAVE button
+     Set the id to "save-btn" and call save() function when it's clicked -->
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-el">Previous entries:</p>
+
+    <p>Nike shoe</p>
+    <button class="purchase-btn" onclick="purchase()">Purchase - $149</button>
+    <p id="error"></p>
+
+    <h1>Calculator Section</h1>
+    <span id="num1-el"></span>
+    <span id="num2-el"></span>
+    <br />
+    <button class="operator-btn" onclick="add()">Add</button>
+    <button class="operator-btn" onclick="subtract()">Subtract</button>
+    <button class="operator-btn" onclick="divide()">Divide</button>
+    <button class="operator-btn" onclick="multiply()">Multiply</button>
+    <br />
+    <span id="sum-el"></span>
+    <script src="index.js"></script>
+  </body>
+</html>
